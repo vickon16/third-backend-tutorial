@@ -1,0 +1,8 @@
+version: "2"
+sql:
+  - schema: "cmd/sql/schema"
+    queries: "cmd/sql/queries"
+    engine: "mysql"
+    gen:
+      go:
+        out: "cmd/sqlc"
